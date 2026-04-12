@@ -1,0 +1,16 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-wrapper{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    height: 100vh;
+}
+
