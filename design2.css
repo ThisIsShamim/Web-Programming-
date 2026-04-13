@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    
+}
+
+.left{
+    background-color: rgb(222, 219, 219);
+    width: 70%;
+    padding-left: 20px;
+     padding-right: 20px;
+
+}
+.right{
+    background-color: rgb(15, 15, 56);
+    width: 30%;
+   
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(24, 24, 154);
+    color: white;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.gear_rent{
+    font-weight: bold;
+    font-size: larger;
+    
+}
+
+.card{
+   
+    display: flex;
+    justify-content: space-between;
+    height: 15%;
+    
+
+    
+    
+}
+
+
+.card1{
+     background-color: rgb(207, 203, 203);
+     height: 100%;
+     width: 30%;
+     border-radius: 5px;
+}
+
+.cardtxt{
+
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 10px;
+    /* gap: 10px; */
+
+}
+
+.txt{
+    color: azure;
+    background-color: black;
+    width: 30%;
+    height: 5%;
+    border-radius: 7px;
+
+}
+
+.righttxt1{
+    color: rgb(207, 203, 203);
+    font-weight: bold;
+
+  
+}
+
+.righttxt2{
+    color: rgb(207, 203, 203);
+    
+}
+
+.rightpading{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+    width: 100%;
+}
+.line{
+    border: 1px solid rgb(207, 203, 203);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button{
+    background-color: rgb(66, 66, 244);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    
+
+}
