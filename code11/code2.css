@@ -1,0 +1,151 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.blue{
+    background-color: #536FFE;
+}
+.color1{
+    background-color: #C1CDFF;
+}
+
+.color2{
+    background-color: #9EFE1E;
+}
+.color3{
+    background-color:#EBEBEB;
+}
+.color4{
+    color: #C1CDFF;
+    font-weight: bold;
+}
+.color5{
+    background-color:  #FEBD57;
+}
+.color6{
+    background-color: #F93536;
+}
+.window{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 12vh 1fr;
+    
+}
+.header{
+    background-color: white;
+    justify-content: space-between;
+    padding: 30px 10px;
+}
+.main_body{
+    display: grid;
+    grid-template-rows: 10vh 40vh 1fr;
+    padding: 10px;
+}
+.stats_div{
+    display: grid;
+    grid-template-columns: 1fr 25vw 25vw;
+    gap: 30px;
+    
+
+
+}
+.logo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #536FFE ;
+font-weight: bold;
+font-size: medium;
+height: 50px;
+width: 50px;
+border-radius: 50%;
+color: white;
+}
+.card{
+    
+    border-radius: 5px;
+}
+
+.second_card{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    gap: 30px;
+    
+}
+.num{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.names{
+        font-size:large;
+    font-weight: bolder;
+}
+.mini_card{
+   border-radius: 5px;
+   background-color: white;
+   padding: 20px 20px;
+}
+.lastweek{
+    margin-top: 170px;
+}
+.white{
+    background-color: white;
+}
+.project_card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+.flex{
+    display: flex;
+}
+.projects_div{
+    display: grid;
+    grid-template-rows: 5vh 1fr;
+}
+.feature{
+    padding-left: 20px;
+    font-weight: bold;
+}
+.card1{
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.progress{
+    height: 10px;
+    background-color: rgb(189, 189, 189);
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.progress_style{
+        height: 10px;
+    width: 160px;
+    border-radius: 5px;
+
+}
+.progress_style1{
+        height: 10px;
+    width: 140px;
+    border-radius: 5px;
+
+    
+}
+
+.down_card{
+
+    padding: 20px;
+}
+
+
+.design{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
