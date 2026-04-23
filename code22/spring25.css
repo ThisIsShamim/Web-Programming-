@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg_color_blue{
+    background-color: #0976a7;
+
+}
+.txt_color_red{
+    color:#e90606;
+}
+.bg_color_grey{
+    background-color: #eff1f3;
+}
+.window{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 10vh 1fr;
+}
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.main_body{
+    display: grid;
+    /* width: 30vw; */
+    grid-template-columns: 30vw 1fr;
+}
+.right{
+    background-color: white;
+}
+.features{
+    display: flex;
+    justify-content: space-between;
+}
+.trial{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px;
+    
+}
+.menu{
+    padding-left: 20px;
+    padding-right: 5px;
+}
+.txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 200px 10px;
+}
+.padd{
+    padding: 20px 300px;
+    justify-content: center;
+    align-items: center;
+}
+.padd div{
+    /* padding: 10px; */
+    padding-top: 20px;
+}
+a{
+    
+}
+.button1{
+    height: 40px;
+    width: 350px;
+}
+.button11{
+    height: 40px;
+    width: 170px;
+
+}
+.flex{
+    display: flex;
+}
+.gap{
+    gap: 10px;
+}
+.bg_color_red{
+    background-color: red;
+}
+.signin{
+    margin-top:10px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.margin_top{
+    margin-top: 10px;
+}
